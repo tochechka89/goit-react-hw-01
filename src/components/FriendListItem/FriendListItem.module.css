@@ -1,0 +1,39 @@
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+width: 100px;
+}
+
+.containerClsx {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.name {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+ color: black;
+ margin-bottom: 10px;
+}
+
+.status {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+
+.isActive {
+    color: green;
+  }
+  
+.isRetired {
+    color: red;
+  }
